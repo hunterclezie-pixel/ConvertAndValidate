@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string userInput = "";
+
+            do
+            {
+
+            } while (userInput != "Q" || userInput != "q");
+
+            //pause
+            Console.Read();
         }
     }
 }
